@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="ind.css">
+    <link rel="manifest" href="fevicon/manifest.json">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- <form class="" >
+      <input type="text" name="name" value="" id="name"></br>
+      <input type="text" name="rollno" value="" id="rollno"></br>
+      <input type="text" name="email" value="" id="email"></br>
+      <button type="button" name="button" onclick="getDetails()">SUBMIT</button> -->
+<div class="mainDiv">
+  <h1><center>Personal Details</center></h1>
+  <div class="personaldiv">
+    <center><input type="text" name="name" value=""placeholder="name"id="name"></br>
+    <input type="text" name="rollno" value=""placeholder="rollno"id="rollno"></br>
+    <input type="text" name="email" value=""placeholder="email"id="email"></center>
+
+  </div>
+  <select class="co" name=""id="getco">
+    <option value=""><center>select</center></option>
+    <option value="To seek a job">To seek a job</option>
+    <option value="i would like to be a part of your organisation to enhance my skills">i would like to be a part of your organisation to enhance my skills</option>
+    </select>
+    <h4><center>EDUCATION DETAILS</center></h4>
+  <h3><center>CARRER OBJECTIVE</center><h3>
+    <div class="eduDiv">
+      <div class="sscDiv">
+        <select class="ssc" name=""id="sscvalue">
+        <option value="ssc ">ssc</option></br>
+        <option value="cbse">cbse</option>
+      </select>
+      </br>
+      <input type="radio" name="marks" value="percentage"id="sscmarks">percentage</br>
+      <input type="radio" name="marks" value="cgpa"id="sscmarks1">cgpa</br>
+      percentage/cgpa:<input type="text" name="percentage" value=""placeholder="percentage/cgpa"id="sscper"></br>
+      year of passing:<input type="text" name="yop" value="" placeholder="yop"id="sscyop"></br>
+    </div>
+        <div class="interDiv">
+            <select class="inter" name="" id="intervalue">
+            <option value="inter">inter</option></br>
+            <option value="diploma">diploma</option>
+          </select>
+          </br>
+          <input type="radio" name="marks" value="percentage"id="intermarks">percentage</br>
+          <input type="radio" name="marks" value="cgpa"id="intermarks1">cgpa</br>
+          percentage/cgpa:<input type="text" name="percentage" value=""placeholder="percentage/cgpa"id="interper"></br>
+          year of passing:<input type="text" name="yop" value="" placeholder="yop"id="interyop"></br>
+        </div>
+        <div class="BtechDiv">
+
+            <select class="Btech" name="" id="Btechvalue">
+            <option value="Btech ">Btech</option></br>
+            <option value="degree">degree</option>
+          </select>
+          </br>
+          <select class="branch" name="">
+            <option value="">CSE</option>
+            <option value="">CIVIL</option>
+            <option value="">EEE</option>
+            <option value="">ECE</option>
+            <option value="">MECH</option>
+          </select></br>
+
+          <input type="radio" name="marks" value="percentage"id="Btechmarks">percentage</br>
+          <input type="radio" name="marks" value="cgpa"id="Btechmarks1">cgpa</br>
+          percentage/cgpa:<input type="text" name="percentage" value=""placeholder="percentage/cgpa"id="Btechper"></br>
+          year of passing:<input type="text" name="yop" value="" placeholder="yop"id="Btechyop"></br>
+
+      </div>
+    </div></br>
+      <button type="button" name="button" onclick="getDetails()">SUBMIT</button>
+    </div>
+
+</form>
+  </body>
+  <script type="text/javascript" src="in.js">
+
+  </script>
+  <script>
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+  .then(function(registration) {
+    console.log('Registration successful, scope is:', registration.scope);
+  })
+  .catch(function(error) {
+    console.log('Service worker registration failed, error:', error);
+  });
+}
+  </script>
+</html>

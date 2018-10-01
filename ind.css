@@ -1,0 +1,33 @@
+.mainDiv{
+  background-image:url(Tulips.jpg);
+  padding:2%;
+  text-align: center;
+}
+.eduDiv{
+  border:2px solid #000;
+  padding:1%;
+  background: blue;
+  display: flex;
+  justify-content:space-between;
+}
+.sscDiv{
+  width:30%;
+  background-color:#33ffff;
+  text-align: center;
+  border:solid black;
+}
+  .interDiv{
+    width:30%;
+    background-color:#3393ff;
+    text-align: center;
+    border:solid black;
+}
+.BtechDiv{
+  width:30%;
+  background-color: #FF338A;
+  border:solid black;
+
+}
+.personaldiv{
+  margin-bottom: 1%;
+}
